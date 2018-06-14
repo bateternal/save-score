@@ -1,0 +1,83 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Eclipse template
+*.pydevproject
+.metadata
+.gradle
+bin/
+/.idea
+/images
+/src/main/resources/map/images/conv3.png
+/src/main/resources/map/images/conv1.png
+/src/main/resources/map/images/con2.png
+/src/main/resources/map/markerclusterer_compiled.js
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+target/
+# External tool builders
+.externalToolBuilders/
+main.iml
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+/solr
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
+
+
+### MicrosoftOffice template
+/src/main/resources/template/dump.rdb
+/src/main/resources/template/password-reset-link-old.html
+# Word temporary
+~$*.doc*
+
+# Excel temporary
+/src/main/resources/hibernate.cfg.xml
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+/logs
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+# Intellij IDEA files
+broadcast.iml
+x-project.iml
+nazdika.pid
+servererror
+serverout
+
+.settings
+doc
+HibernateTutorialDB.tmp
+HibernateTutorialDB.log
+HibernateTutorialDB.properties
+HibernateTutorialDB.script
