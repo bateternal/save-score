@@ -8,5 +8,10 @@ pipeline {
                 sh 'echo "abolfazl"'
             }
         }
+        stage('test') {
+                    steps {
+                        sh 'mvn test'
+                    }
+                }
     }
 }
