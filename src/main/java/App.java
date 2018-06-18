@@ -1,4 +1,4 @@
-package ir.oddrun;
+package ir.oddrun.score;
 
 import ir.oddrun.score.data.hibernate.HibernateUtil;
 import org.eclipse.jetty.server.Server;
