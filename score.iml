@@ -76,7 +76,6 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:3.8.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.badoualy.kotlogram:api:dc69234822" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" level="project" />
