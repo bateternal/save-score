@@ -1,22 +1,10 @@
 pipeline {
-    agent any
-    tools {
-        maven '3.3.3'
-        jdk 'jdk8'
-    }
+    agent { docker { image 'maven:3.3.3' } }
     stages {
-        stage ('Initialize') {
+        stage('build') {
             steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                '''
-            }
-        }
-
-        stage ('Build') {
-            steps {
-                echo 'This is a minimal pipeline.'
+                sh 'mvn --version'
+                sh 'echo "abolfazl"'
             }
         }
     }
