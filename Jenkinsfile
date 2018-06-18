@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn dependency:resolve'
-                sh 'mvn test'
                 sh 'echo "abolfazl"'
             }
         }
