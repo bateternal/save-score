@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'echo "abolfazl"'
-                sh 'mvn clean install'
+                sh 'mvn compile'
             }
         }
     }
