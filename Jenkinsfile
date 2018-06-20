@@ -1,12 +1,17 @@
 pipeline {
-    agent { docker { image 'maven:3.5.3' } }
-    stages {
-        stage('build') {
-            steps {
-                sh 'mvn --version'
-                sh 'echo "abolfazl"'
-                sh 'mvn clean install'
+        agent docker: 'maven:3.3.9-alpine'
+
+        jobProperties {
+            buildDiscarder(logRotator(numToKeepStr:'10'))
+        }
+
+        stages {
+            stage('maven-build') {
+                steps {
+                    withMaven(mavenSettingsConfig: 'vantage') {
+                        sh 'mvn clean install'
+                    }
+                }
             }
         }
-    }
 }
