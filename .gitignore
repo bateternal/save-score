@@ -47,7 +47,7 @@ main.iml
 ~$*.doc*
 
 # Excel temporary
-/src/main/resources/hibernate.cfg.xml
+
 ~$*.xls*
 
 # Excel Backup File
